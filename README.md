@@ -1,14 +1,16 @@
-# Bebert's Adventures
+# The Bebert's Adventures
 
 Bebert's Adventures is a Python application developed with Pygame. It was developed in 2017 with [Raphael Gimenez](https://github.com/RaphaelGimenez).
 
+![Preview](image/preview.gif)
+
 ## Description
 
-Bebert's Adventures is an exciting platformer video game inspired by the classic Mario Bros. In this game, players take control of a charismatic frog named Bebert as he embarks on a thrilling journey through various challenging levels.
+The Bebert's Adventures is an exciting platformer video game inspired by the classic Mario Bros. In this game, players take control of a charismatic frog named Bebert as he embarks on a thrilling journey through various challenging levels.
 
 Test your platforming skills as you guide Bebert through vibrant worlds. Traverse treacherous terrain, leap across platforms, and overcome various obstacles in your quest for progress. Each level presents a progressively challenging experience, pushing your abilities to the limit.
 
-Bebert's Adventures also offers a unique feature that sets it apart. The game includes a level editor, allowing players to unleash their creativity and design their own custom levels. Build intricate environments, craft challenging platforming sections, and shape the game world according to your imagination. Share your creations with other players and expand the game's replayability.
+The Bebert's Adventures also offers a unique feature that sets it apart. The game includes a level editor, allowing players to unleash their creativity and design their own custom levels. Build intricate environments, craft challenging platforming sections, and shape the game world according to your imagination. Share your creations with other players and expand the game's replayability.
 
 Immerse yourself in the nostalgic atmosphere of Bebert's Adventures with its retro-inspired soundtrack, creating an engaging and immersive experience.
 

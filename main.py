@@ -395,13 +395,16 @@ def creationNiveau():
             num_case += 1
         num_ligne += 1
 
- #   pg.mixer.music.load("music\main_music.ogg")
+    try:
+        pg.mixer.music.load("music\main_music.ogg")
+    except:
+        pg.mixer.music.load("music/main_music.ogg")
     corps()
 
 def corps():
     global boucleInterne, boucleJeu, boucleGO
     boucleInterne = True
- #   pg.mixer.music.play(loops=-1)
+    pg.mixer.music.play(loops=-1)
     while boucleInterne:
         clock.tick(FPS)
         fenetre.blit(backgroundJeu, (0, 0))
@@ -412,7 +415,7 @@ def corps():
             boucleInterne = False
     boucleJeu = False
     boucleGO = True
- #   pg.mixer.music.fadeout(500)
+    pg.mixer.music.fadeout(500)
 
 def miseAJour():
     groupeSprites.update()

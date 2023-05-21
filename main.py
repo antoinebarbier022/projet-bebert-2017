@@ -621,9 +621,13 @@ def menu():
             surfaceAvertissementReinitialisation.fill(couleurSurfaceAvertissement)
 
             #configuration de la police
-            Police_titre = pg.font.Font("font/OCRAEXT.TTF",taillePolice_titre)
-            Police_normal = pg.font.Font("font/OCRAEXT.TTF",taillePolice_normal)
-            Police_petit = pg.font.Font("font/OCRAEXT.TTF",taillePolice_petit)
+            #Police_titre = pg.font.Font("font/OCRAEXT.TTF",taillePolice_titre)
+            #Police_normal = pg.font.Font("font/OCRAEXT.TTF",taillePolice_normal)
+            #Police_petit = pg.font.Font("font/OCRAEXT.TTF",taillePolice_petit)
+
+            Police_titre = pg.font.SysFont("monospace",taillePolice_titre)
+            Police_normal = pg.font.SysFont("monospace",taillePolice_normal)
+            Police_petit = pg.font.SysFont("monospace",taillePolice_petit)
 
             def objet_texte(text, couleur,taille):
                 if taille == 'titre':

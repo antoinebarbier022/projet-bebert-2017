@@ -4,7 +4,9 @@ from pygame.locals import *
 
 pg.init()
 
-Police_ecriture = pg.font.Font("font/OCRAEXT.TTF", 24)
+# Police_ecriture = pg.font.Font("font/OCRAEXT.TTF", 24)
+
+Police_ecriture = pg.font.SysFont("monospace", 15)
 
 def objet_texte(text, couleur):
     textSurface = Police_ecriture.render(text, True, couleur)

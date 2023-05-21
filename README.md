@@ -29,7 +29,7 @@ Get ready to embark on an unforgettable platforming journey with Bebert. Push yo
 1. Make sure you have Python installed (version 3 or higher) by running the following command in your terminal:
 
 ```
-python --version
+python3 --version
 ```
 
 2. Clone this GitHub repository
